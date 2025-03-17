@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "typechains": "rm -rf typechains && typechain --target ethers-v5 --out-dir typechains './out/**/Vault.json' && typechain --target ethers-v5 --out-dir typechains './out/**/VaultFactory.json' && typechain --target ethers-v5 --out-dir typechains './out/**/OffchainValueHub.json'"
+  },
+  "dependencies": {
+    "@typechain/ethers-v5": "^11.1.2"
+  }
+}
